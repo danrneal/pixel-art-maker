@@ -14,4 +14,4 @@ That's it!
 
 ## License
 
-Pixel Art Maker is licensed under the [MIT license](https://github.com/danrneal/adventure-game/blob/master/LICENSE).
+Pixel Art Maker is licensed under the [MIT license](https://github.com/danrneal/pixel-art-maker/blob/master/LICENSE).
