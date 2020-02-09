@@ -1,16 +1,17 @@
-# Pixel Art Maker Project
+# Pixel Art Maker
 
-## Table of Contents
+A single-page web app that allows users to draw pixel art on a customizable canvas.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Usage
 
-## Instructions
+Just open up index.html in your browser.
 
-To get started, open `designs.js` and start building out the app's functionality.
+That's it!
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Credit
 
-## Contributing
+[Udacity's Intro to Programming Nanodegree Program](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## License
+
+Pixel Art Maker is licensed under the [MIT license](https://github.com/danrneal/adventure-game/blob/master/LICENSE).
