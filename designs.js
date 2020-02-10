@@ -17,7 +17,8 @@ sizePicker.addEventListener('submit', function(event) {
  * @description Erases any elements from an existing grid
  */
 function eraseGrid() {
-    const allRows = document.querySelectorAll('tr');
+    const pixelCanvas = document.querySelector('#pixelCanvas');
+    const allRows = pixelCanvas.querySelectorAll('tr');
     for (let i = 0; i < allRows.length; i++) {
         allRows[i].remove();
     }
