@@ -8,6 +8,10 @@ Just open up index.html in your browser.
 
 That's it!
 
+## Screenshots
+
+![](https://i.imgur.com/jDuFcX0.png)
+
 ## Credit
 
 [Udacity's Intro to Programming Nanodegree Program](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
