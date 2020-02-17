@@ -10,7 +10,7 @@ That's it!
 
 ## Screenshots
 
-![](https://i.imgur.com/jDuFcX0.png)
+![](https://i.imgur.com/f7kDBbr.png)
 
 ## Credit
 
