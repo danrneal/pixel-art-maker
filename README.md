@@ -10,7 +10,7 @@ That's it!
 
 ## Screenshots
 
-![](https://i.imgur.com/f7kDBbr.png)
+![Pixel Art Maker App](https://i.imgur.com/f7kDBbr.png)
 
 ## Credit
 
