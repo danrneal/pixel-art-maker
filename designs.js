@@ -13,8 +13,9 @@ function eraseGrid() {
  * @description Creates a grid a squares that change color on click
  * @param {number} height - number of rows in the grid
  * @param {number} width - number of columns in the grid
+ * @param {string} color - color to turn the grid square on click
  */
-function makeGrid(height, width) {
+function makeGrid(height, width, color) {
   const pixelCanvas = document.querySelector('#pixelCanvas');
   pixelCanvas.addEventListener('click', (event) => {
     if (event.target.nodeName === 'TD') {
@@ -44,5 +45,5 @@ sizePicker.addEventListener('submit', (event) => {
   const height = sizePicker.height.value;
   const width = sizePicker.width.value;
   eraseGrid();
-  makeGrid(height, width);
+  makeGrid(height, width, color);
 });
