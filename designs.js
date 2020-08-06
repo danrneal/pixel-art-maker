@@ -24,7 +24,7 @@ function makeGrid(height, width, color) {
   });
 
   for (let i = 0; i < height; i++) {
-    let row = document.createElement('tr');
+    const row = document.createElement('tr');
     for (let j = 0; j < width; j++) {
       const data = document.createElement('td');
       row.appendChild(data);
