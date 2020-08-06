@@ -16,7 +16,7 @@ function eraseGrid() {
  */
 function makeGrid(height, width) {
   const pixelCanvas = document.querySelector('#pixelCanvas');
-  pixelCanvas.addEventListener('click', function (event) {
+  pixelCanvas.addEventListener('click', (event) => {
     if (event.target.nodeName === 'TD') {
       event.target.style.background = color;
     }
@@ -34,12 +34,12 @@ function makeGrid(height, width) {
 
 const colorPicker = document.querySelector('#colorPicker');
 let color = document.querySelector('#colorPicker').value;
-colorPicker.addEventListener('input', function () {
+colorPicker.addEventListener('input', () => {
   color = document.querySelector('#colorPicker').value;
 });
 
 const sizePicker = document.querySelector('#sizePicker');
-sizePicker.addEventListener('submit', function (event) {
+sizePicker.addEventListener('submit', (event) => {
   event.preventDefault();
   const height = sizePicker.height.value;
   const width = sizePicker.width.value;
