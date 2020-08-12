@@ -4,9 +4,9 @@
 function eraseGrid() {
   const pixelCanvas = document.querySelector('#pixelCanvas');
   const allRows = pixelCanvas.querySelectorAll('tr');
-  for (let i = 0; i < allRows.length; i++) {
-    allRows[i].remove();
-  }
+  allRows.forEach((row) => {
+    row.remove();
+  });
 }
 
 /**
@@ -19,18 +19,19 @@ function makeGrid(height, width, color) {
   const pixelCanvas = document.querySelector('#pixelCanvas');
   pixelCanvas.addEventListener('click', (event) => {
     if (event.target.nodeName === 'TD') {
-      event.target.style.background = color;
+      const td = event.target;
+      td.style.background = color;
     }
   });
 
-  for (let i = 0; i < height; i++) {
+  [...Array(parseInt(height, 10))].forEach(() => {
     const row = document.createElement('tr');
-    for (let j = 0; j < width; j++) {
+    [...Array(parseInt(width, 10))].forEach(() => {
       const data = document.createElement('td');
       row.appendChild(data);
-    }
+    });
     pixelCanvas.appendChild(row);
-  }
+  });
 }
 
 const colorPicker = document.querySelector('#colorPicker');
